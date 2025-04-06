@@ -4,12 +4,12 @@
     {% load static %}
     <meta charset="UTF-8">
     <title>Birthday Wish</title>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static '/style.css' %}">
 </head>
 <body>
 <div class="container">
     {% if name %}
-        <img src="{% static '/hello.jpeg' %}" class="teddy" alt="Teddy Bear">
+        <img src="{% static '/Hello.jpeg' %}" class="teddy" alt="Teddy Bear">
         <h2>Helloooo,{{ name }}!,Kasi Ho</h2>
         <p>Hor Btao kya kr rhi ho!,{{ name }}!</p><br>
         <button onclick="wishAgain()">press Again</button>
