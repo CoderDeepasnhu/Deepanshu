@@ -6,3 +6,5 @@ def get_name(request):
     if request.method=="POST":
         name=request.POST.get("name")
     return render(request,'index.html',{"name":name})
+# def home(request):
+#     return render(request,'index.html')
